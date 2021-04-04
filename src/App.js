@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/jsx-no-undef */
+import logo from './image/logo1.png';
+import Navbar from "./Components/Navbar";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { FooterContainer } from "./containers/footer";
+import Home from "./pages/index";
+import Scroll from "./Components/scroll/arvore"
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+
+      <Navbar />
+
+      <Switch>
+        <Route path="/" exact component={Home} />
+      </Switch>
+      <FooterContainer />
+    </Router>
   );
 }
 
