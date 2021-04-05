@@ -1,7 +1,7 @@
 
 /* eslint-disable react/jsx-no-undef */
 import React from "react";
-import scrolls from "../../image/arvore.png"
+import scrolls from "../../image/tronco1.jpg"
 
 const arv = () => {
     return (

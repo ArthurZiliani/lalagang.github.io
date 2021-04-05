@@ -105,9 +105,23 @@
 }
 .container-home{
 height: 1000px;
+width: 100%;
+height: 100vh;
+background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(./image/fundo2.png);
+background-size: cover;
 
 }
 
+.container-title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.title{
+  text-align: center;
+}
 
 *{
 margin: 0;
@@ -118,8 +132,13 @@ height: auto;
 body{
   width:100%; 
   overflow-x: hidden;
-  
+ 
 }
+
+
+
+
+
 .nav a {
   position: relative;
 }
@@ -135,25 +154,43 @@ body{
 }
 .arvore-scroll img{
   width: 100px;
-  height: 1460px;
+  height: 1360px;
   
 }
 ::-webkit-scrollbar {
-  display: none;
+  width: 20px;
 }
+::-webkit-scrollbar-track {
+  background: #305040;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ACD32;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px  #305040;
+  
+}
+::-webkit-scrollbar-thumb {
+  background: 	#556B2Fc9;
+  border-radius: 10px;
+}
+
+
 .arvore-scroll{
   display: flex;
   justify-content: flex-end;
   position: absolute;
-  width: 102%;
+  width: 100%;
   
 }
 
 .container-home{
   width: 100%;
-  display: flex;
+  color: #fff;
   flex: 1;
   flex-wrap: wrap;
+  height: 1350px;
 
 }
 
@@ -176,6 +213,15 @@ body{
   margin-top: 2%;
   justify-content: center;
  
+
+
 }
 
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  
+}
 
