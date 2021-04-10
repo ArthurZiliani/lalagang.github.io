@@ -9,7 +9,7 @@
     
 }
 form{
-    background-color: #556B2Fc9;
+    background-color: #5ba9ff;
     border-radius: 3%;
 }
 
@@ -39,7 +39,7 @@ form{
     justify-content: center;
     margin-top: 2%;
     cursor: pointer!important;
-    background-color: #305040;
+    background-color: #2e5f95;
     color: #fff;
     border-radius: 6%;
     border: none;
@@ -50,7 +50,7 @@ form{
 
 .form-button:hover {
 
-background-color: #9ACD32;
+background-color: #5ba9ff;
 color: black;
 }
 
@@ -62,5 +62,5 @@ color: black;
 
 .form-group input:focus{
     outline: 3px solid transparent;
-    background-color: #9ACD32;
+    background-color: #5ba9ff;
 }
