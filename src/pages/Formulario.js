@@ -1,27 +1,17 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import Form from "../Components/form/formu"
 
-
-const home = () => {
+const form = () => {
     return (
-
-
-        <div className="container-title">
+        <div className="container-form">
             <div className="title">
-                <h1> Home</h1>
+
+                <Form />
             </div>
         </div>
-
-
-
-
-
-
-
-
-
 
     );
 };
 
-export default home;
+export default form;

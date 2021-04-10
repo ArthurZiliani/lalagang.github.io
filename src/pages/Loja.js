@@ -2,26 +2,15 @@
 import React from "react";
 
 
-const home = () => {
+const loja = () => {
     return (
-
-
         <div className="container-title">
             <div className="title">
-                <h1> Home</h1>
+                <h1>Loja</h1>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
 
     );
 };
 
-export default home;
+export default loja;

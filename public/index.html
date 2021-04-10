@@ -28,17 +28,57 @@
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
-  <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+  <script type="text/babel">
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    class App extends React.Component {
+      state = {
+        contacts: []
+      }
+      render() {
+        return (
+          <React.Fragment>
+            <h1>Contact Management</h1>
+            <table border='1' width='100%' >
+              <tr>
+                <th>nome</th>
+                <th>idade</th>
+                <th>lala</th>
+                <th>discord</th>
+                <th>indicador</th>
+              </tr>
+
+              {this.state.contacts.map((contact) => (
+                <tr>
+                  <td>{contact.nome}</td>
+                  <td>{contact.idade}</td>
+                  <td>{contact.lala}</td>
+                  <td>{contact.discord}</td>
+                  <td>{contact.indicador}</td>
+                </tr>
+              ))}
+            </table>
+          </React.Fragment>
+        );
+      }
+    }
+
+    ReactDOM.render(<App />, document.getElementById('root'));
+  </script>
+
+
+
+
+
+
+
 </body>
 <script src="https://kit.fontawesome.com/0714b783c7.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<!-- Load Babel Compiler -->
+<script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
 </html>

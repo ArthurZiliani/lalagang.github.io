@@ -104,7 +104,7 @@
 
 }
 .container-home{
-height: 1000px;
+
 width: 100%;
 height: 100vh;
 background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(./image/fundo2.png);
@@ -190,9 +190,40 @@ body{
   color: #fff;
   flex: 1;
   flex-wrap: wrap;
-  height: 1350px;
+  height: 100vh;
+  position: absolute;
 
 }
+
+.container-title{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  color: #fff;
+  
+}
+
+.container-title{
+  width: 100%;
+  
+  
+}
+
+
+.container-form{
+  width: 100%;
+  height: auto;
+  position: relative;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.title{
+margin-top: 2%;
+}
+
 
 .fundo-home{
   width: 100%;
@@ -224,4 +255,10 @@ body {
   margin: 0;
   
 }
+
+#croco {
+
+  height: 90px;
+}
+
 

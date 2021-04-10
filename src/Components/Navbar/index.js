@@ -15,7 +15,7 @@ const Navbar = () => {
         <IconButton id="menuToggle" onClick={() => setActive(!active)}>
           <i className={active ? "fas fa-times" : "fas fa-bars"} />
         </IconButton>
-        <img src={logo} alt="" />
+        <img id="croco" src={logo} alt="" />
         <NavMenu className={active ? "nav active" : "nav"}>
           <NavLink to="/" activeStyle>
             <Icon className="fas fa-home " />  Inicio

@@ -54,7 +54,7 @@ export const Link = styled.a`
   text-decoration: none;
 
   &:hover {
-    color: #ecb938;
+    color: #9ACD32;
     transition: 200ms ease-in;
   }
 `;

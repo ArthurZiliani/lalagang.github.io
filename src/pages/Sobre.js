@@ -2,26 +2,15 @@
 import React from "react";
 
 
-const home = () => {
+const sobre = () => {
     return (
-
-
         <div className="container-title">
             <div className="title">
-                <h1> Home</h1>
+                <h1>Sobre</h1>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
 
     );
 };
 
-export default home;
+export default sobre;
