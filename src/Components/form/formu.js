@@ -66,7 +66,7 @@ const Formulario = () => {
                         onChange={e => setIdade(e.target.value)}></input>
                 </div>
                 <div className="form-group">
-                    <label htmlFor="title">Porque quer entrar na Lalagang?</label>
+                    <label htmlFor="title">Porque quer entrar na WhiteBears?</label>
                     <input required
                         id="senha"
                         name="senha"
