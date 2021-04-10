@@ -111,7 +111,7 @@ const Formulario = () => {
                     <input id="hora" type="time" required></input>
                 </div>
                 <div className="form-group">
-                    <label htmlFor="title">Você pode contribuir com algo para Lalagang relacionado <p></p>a networking e troca de conhecimento?
+                    <label htmlFor="title">Você pode contribuir com algo para WhiteBears relacionado <p></p>a networking e troca de conhecimento?
                    </label>
                     <input id="resposta" required></input>
                     <button className="form-button" onClick={handleSubmit}>Enviar</button>
