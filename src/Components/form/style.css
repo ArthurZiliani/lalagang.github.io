@@ -9,7 +9,7 @@
     
 }
 form{
-    background-color: #5ba9ff;
+    background-color: #2e5f95;
     border-radius: 3%;
 }
 
@@ -39,7 +39,7 @@ form{
     justify-content: center;
     margin-top: 2%;
     cursor: pointer!important;
-    background-color: #2e5f95;
+    background-color: #5ba9ff;
     color: #fff;
     border-radius: 6%;
     border: none;
@@ -50,7 +50,7 @@ form{
 
 .form-button:hover {
 
-background-color: #5ba9ff;
+background-color: #2e5f95;
 color: black;
 }
 
