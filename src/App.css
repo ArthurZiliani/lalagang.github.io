@@ -161,18 +161,18 @@ body{
   width: 20px;
 }
 ::-webkit-scrollbar-track {
-  background: #305040;
+  background: #295586;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #9ACD32;
+  background: #5ba9ff;
 }
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px  #305040;
+  box-shadow: inset 0 0 5px  #2e5f95;
   
 }
 ::-webkit-scrollbar-thumb {
-  background: 	#556B2Fc9;
+  background: 	#5ba9ff;
   border-radius: 10px;
 }
 
